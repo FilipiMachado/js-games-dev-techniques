@@ -10,8 +10,8 @@ let x = 0;
 
 function animate() {
   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-  ctx.fillRect(x, 50, 100, 100);
-  x++;
+  ctx.fillRect(50, 50, 100, 100);
+  ctx.drawImage(playerImage, 0, 0)
   requestAnimationFrame(animate);
 }
 animate();
