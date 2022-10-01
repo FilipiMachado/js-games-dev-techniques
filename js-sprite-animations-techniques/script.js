@@ -10,7 +10,7 @@ playerImage.src = "assets/dog_sprites.png";
 const spriteWidth = 575;
 const spriteHeight = 523;
 let frameX = 0;
-let frameY = 0;
+let frameY = 6;
 
 function animate() {
   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
